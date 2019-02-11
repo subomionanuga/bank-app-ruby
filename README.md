@@ -22,6 +22,22 @@ date || credit || debit || balance
 10/01/2012 || 1000.00 || || 1000.00
 ```
 
+User Stories
+----
+```
+As a client
+So that I can increase my balance
+I want to be able to deposit funds in my account
+
+As a client
+So that I can reduce my balance
+I want to be able to withdraw funds from my account
+
+As a client
+So that I can see my transaction history
+I want to be able to print my account statement
+```
+
 Getting Started
 ----
 This app will be built using Ruby and a strict TDD process. Tests will be run using rspec. The simplecov and rubocop gems will be used for covergae and code quality.
@@ -40,6 +56,3 @@ A strict TDD process will be used throughout so an appropriate testing framework
 * To run tests during your project to see their status, run `rspec`.
 
 The RED GREEN REFACTOR loop will also be followed during this project so it is important to make sure tests are run frequently to ensure this is being followed.
-
-User Stories
-----
