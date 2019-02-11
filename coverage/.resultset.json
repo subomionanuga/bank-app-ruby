@@ -50,8 +50,35 @@
         null,
         null,
         null
+      ],
+      "/Users/subomi-makers/Documents/projects/bank-app-ruby/spec/units/transaction_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        2,
+        1,
+        null,
+        null
+      ],
+      "/Users/subomi-makers/Documents/projects/bank-app-ruby/lib/transaction.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1549898022
+    "timestamp": 1549899725
   }
 }

@@ -48,7 +48,7 @@ I want to be able to print my account statement
 
 Getting Started
 ----
-This app will be built using Ruby and a strict TDD process. Tests will be run using rspec. The simplecov and rubocop gems will be used for covergae and code quality.
+This app will be built using Ruby and a strict TDD process. Tests will be run using rspec. The simplecov and rubocop gems will be used for coverage and code quality.
 
 * From your projects folder on your local machine `mkdir bank-app`
 * `cd bank-app` to change into the directory and run `git init` to initialise git.
