@@ -30,6 +30,14 @@
         1,
         null,
         null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/subomi-makers/Documents/projects/bank-app-ruby/lib/transaction.rb": [
@@ -38,6 +46,7 @@
         1,
         null,
         1,
+        4,
         4,
         4,
         4,
@@ -107,6 +116,6 @@
         null
       ]
     },
-    "timestamp": 1549905739
+    "timestamp": 1549911125
   }
 }

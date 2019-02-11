@@ -8,13 +8,13 @@ describe "Transactions" do
    end
 
    it "checks that time is recorded with transactions" do
-     allow(entry).to receive(:date) { 11/02/2019 }
-     expect(entry.date).to eq(11/02/2019)
+     allow(entry).to receive(:date) { "11/02/2019" }
+     expect(entry.date).to eq("11/02/2019")
    end
 
    it "checks that new instances of transaction have amounts" do
-     allow(entry).to receive(:amount) { 1000 }
-     expect(entry.amount).to eq(1000)
+     allow(entry).to receive(:credit) { 1000 }
+     expect(entry.credit).to eq(1000)
    end
 
    it "checks that the current balance is updated with transactions" do

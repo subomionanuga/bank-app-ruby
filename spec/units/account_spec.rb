@@ -27,7 +27,7 @@ describe "Bank Account" do
   it 'can print a stament of transactions' do
     account = Account.new(1000)
     account.deposit(1000)
-    expect(account.statement).to include("11/02/2019", 1000, 2000)
+    expect(account.statement).to eq(account.entries)
   end
 
 end

@@ -9,14 +9,22 @@ class Account
     @entries = []
   end
 
-  def deposit(amount)
-    @balance += amount
-    @entries << Transaction.new(amount, balance)
+  def deposit(credit)
+    @balance += credit
+    @entries << Transaction.new(credit, balance)
   end
 
-  def withdraw(amount)
-    @balance -= amount
-    @entries << Transaction.new(-amount, balance)
+  def withdraw(debit)
+    @balance -= debit
+    @entries << Transaction.new(debit, balance)
+  end
+
+  def statement
+    puts "date || credit || debit || balance \n"
+    @entries.each do |entry|
+      puts "#{entry.date} || #{entry.credit} || #{entry.debit} || #{entry.balance}"
+    end
+    # return entries
   end
 
 end
