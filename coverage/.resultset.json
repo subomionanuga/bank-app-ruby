@@ -24,6 +24,10 @@
         1,
         null,
         null,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/subomi-makers/Documents/projects/bank-app-ruby/spec/units/account_spec.rb": [
@@ -42,12 +46,12 @@
         null,
         null,
         1,
-        3,
+        4,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1549897927
+    "timestamp": 1549898022
   }
 }

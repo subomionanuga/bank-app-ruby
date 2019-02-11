@@ -13,7 +13,7 @@ describe "Bank Account" do
   end
 
   it "checks that an amount can be withdrawn" do
-    expect{ account.withdraw(100) }.to change{ account.balance }.by(100)
+    expect{ account.withdraw(100) }.to change{ account.balance }.by(-100)
   end
 
 end
