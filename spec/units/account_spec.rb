@@ -24,4 +24,10 @@ describe "Bank Account" do
     expect { account.withdraw(100) }.to change { account.balance }.by(-100)
   end
 
+  it 'can print a stament of transactions' do
+    account = Account.new(1000)
+    account.deposit(1000)
+    expect(account.statement).to include("11/02/2019", 1000, 2000)
+  end
+
 end
