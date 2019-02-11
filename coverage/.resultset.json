@@ -2,17 +2,9 @@
   "RSpec": {
     "coverage": {
       "/Users/subomi-makers/Documents/projects/bank-app-ruby/spec/features/bank_spec.rb": [
-        null,
-        null,
-        1,
-        1,
         1,
         null,
-        null
-      ],
-      "/Users/subomi-makers/Documents/projects/bank-app-ruby/spec/units/account_spec.rb": [
         1,
-        null,
         1,
         1,
         1,
@@ -20,9 +12,29 @@
         null
       ],
       "/Users/subomi-makers/Documents/projects/bank-app-ruby/lib/account.rb": [
-
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/subomi-makers/Documents/projects/bank-app-ruby/spec/units/account_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1549895918
+    "timestamp": 1549897013
   }
 }
