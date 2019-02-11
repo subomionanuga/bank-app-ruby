@@ -1,9 +1,11 @@
 class Transaction
 
-  attr_reader :date
+  attr_reader :date, :amount, :balance
 
-  def initialize
-    @date = Time.now
+  def initialize(amount = 0, balance)
+    @date = Time.now.strftime("%d/%m/%Y")
+    @amount = amount
+    @balance = balance
   end
 
 end
