@@ -9,6 +9,6 @@ describe "Bank Account" do
   end
 
   it "checks that an amount can be deposited" do
-    expect(account.deposit(100)).to increase(account.balance).by(100)
+    expect{ account.deposit(100) }.to change{ account.balance }.by(100)
   end
 end
