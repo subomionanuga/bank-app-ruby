@@ -64,3 +64,30 @@ A strict TDD process will be used throughout so an appropriate testing framework
 * To run tests during your project to see their status, run `rspec`.
 
 The RED GREEN REFACTOR loop will also be followed during this project so it is important to make sure tests are run frequently to ensure this is being followed.
+
+Running the App
+----
+The app can be run from the command line
+
+* Launch irb and require the .rb files where your class is being defined
+`$ irb
+ $ require './lib/account'`
+ * Run the program with the following commands to perform different actions
+ ```
+account = Account.new
+
+account.deposit(10000)
+
+account.deposit(5000)
+
+account.withdraw(10000)
+
+account.statement
+ ```
+ * The printed result of `account.statement` should be the below
+ ```
+ date || credit || debit || balance
+ 12/02/2019 || 10000 || 0 || 10000
+ 12/02/2019 || 5000 || 0 || 15000
+ 12/02/2019 || 0 || 10000 || 5000
+ ```
