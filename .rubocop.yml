@@ -11,7 +11,7 @@ Style/MethodDefParentheses:
 Style/FrozenStringLiteralComment:
   Enabled: false
 Metrics/LineLength:
-  Max: 120
+  Max: 80
 
 IndentationConsistency:
   Enabled: true

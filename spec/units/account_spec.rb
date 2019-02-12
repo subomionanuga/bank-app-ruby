@@ -2,8 +2,6 @@ require 'account'
 
 describe Account do
 
-  # account = Account.new
-
   it "checks that an instance of account is created" do
     expect(subject).to be_an_instance_of(Account)
   end
@@ -27,7 +25,8 @@ describe Account do
   it 'can print a statement of transactions' do
     account = Account.new(1000)
     account.deposit(1000)
-    expect(account.statement).to eq(account.entries)
+    expected_print = "date || credit || debit || balance \n12/02/2019 || 1000 || 0 || 2000\n"
+    expect { account.statement }.to output(expected_print).to_stdout
   end
 
 end

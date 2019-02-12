@@ -11,7 +11,8 @@ class Account
 
   def deposit(credit)
     @balance += credit
-    @entries << Transaction.new(credit, balance)
+    debit = 0
+    @entries << Transaction.new(credit, debit, balance)
   end
 
   def withdraw(debit)
@@ -21,11 +22,12 @@ class Account
   end
 
   def statement
-    puts "date || credit || debit || balance \n"
+    header = "date || credit || debit || balance \n"
+    body = ""
     @entries.each do |entry|
-      puts "#{entry.date} || #{entry.credit} || #{entry.debit} || #{entry.balance}"
+      body << "#{entry.date} || #{entry.credit} || #{entry.debit} || #{entry.balance}\n"
     end
-    # return entries
+    puts header + body
   end
 
 end
