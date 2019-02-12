@@ -6,7 +6,5 @@ describe "Bank Statement" do
     account.deposit(10000)
     account.withdraw(5000)
     expect(account.statement).to eq(account.entries)
-
   end
-
 end
