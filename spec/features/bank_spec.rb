@@ -1,5 +1,8 @@
 require 'account'
 
-describe "Bank Balance" do
+describe "Bank Statement" do
+  it "prints the expected bank statement" do
+
+  end
 
 end

@@ -16,7 +16,8 @@ class Account
 
   def withdraw(debit)
     @balance -= debit
-    @entries << Transaction.new(debit, balance)
+    credit = 0
+    @entries << Transaction.new(credit, debit, balance)
   end
 
   def statement
