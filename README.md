@@ -48,7 +48,7 @@ I want to be able to print my account statement
 
 Getting Started
 ----
-This app will be built using Ruby and a strict TDD process. Tests will be run using rspec. The simplecov and rubocop gems will be used for coverage and code quality.
+This app will be built using Ruby and a strict TDD process. Tests will be run using rspec. The *simplecov* and *rubocop* gems will be used for coverage and code quality.
 
 * From your projects folder on your local machine `mkdir bank-app`
 * `cd bank-app` to change into the directory and run `git init` to initialise git.
@@ -70,8 +70,10 @@ Running the App
 The app can be run from the command line
 
 * Launch irb and require the .rb files where your class is being defined
-`$ irb
- $ require './lib/account'`
+```
+$ irb
+$ require './lib/account'
+```
  * Run the program with the following commands to perform different actions
  ```
 account = Account.new
@@ -91,3 +93,4 @@ account.statement
  12/02/2019 || 5000 || 0 || 15000
  12/02/2019 || 0 || 10000 || 5000
  ```
+ ![Screenshot](Screenshot.png)
