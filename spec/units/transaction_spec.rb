@@ -18,7 +18,7 @@ describe Transaction do
     expect(entry.credit).to eq(2000)
   end
 
-  it "checks that the current balance is updated with transactions" do
+  it "checks that new instances of transaction can be debited" do
     # allow(subject).to receive(:balance) { 1000 }
     expect(entry.debit).to eq(1000)
   end

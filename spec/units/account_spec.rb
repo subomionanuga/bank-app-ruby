@@ -25,7 +25,7 @@ describe Account do
   it 'can print a statement of transactions' do
     account = Account.new(1000)
     account.deposit(1000)
-    expected_print = "date || credit || debit || balance \n12/02/2019 || 1000 || 0 || 2000\n"
+    expected_print = "date || credit || debit || balance \n#{Time.now.strftime("%d/%m/%Y")} || 1000 || 0 || 2000\n"
     expect { account.statement }.to output(expected_print).to_stdout
   end
 
