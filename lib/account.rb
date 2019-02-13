@@ -22,12 +22,17 @@ class Account
   end
 
   def statement
-    header = "date || credit || debit || balance \n"
     body = ""
     @entries.each do |entry|
       body << "#{entry.date} || #{entry.credit} || #{entry.debit} || #{entry.balance}\n"
     end
     puts header + body
+  end
+
+  private
+
+  def header
+    "date || credit || debit || balance \n"
   end
 
 end
