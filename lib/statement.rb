@@ -2,10 +2,11 @@ require 'account'
 
 class Statement
 
-  attr_reader :header
+  attr_reader :header, :entries
 
   def initialize
     @header = header
+    @entries = []
   end
 
   def header
