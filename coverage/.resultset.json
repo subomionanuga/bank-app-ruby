@@ -29,24 +29,12 @@
         1,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
         1,
         4,
         null,
         null,
         1,
         4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null
@@ -73,13 +61,6 @@
         2,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null
       ],
       "/Users/subomi-makers/Documents/projects/bank-app-ruby/spec/units/transaction_spec.rb": [
@@ -92,22 +73,19 @@
         null,
         null,
         1,
-        null,
         1,
         null,
         null,
         1,
-        null,
         1,
         null,
         null,
         1,
-        null,
         1,
         null,
         null
       ]
     },
-    "timestamp": 1550227317
+    "timestamp": 1550227947
   }
 }

@@ -1,14 +1,11 @@
 class Statement
 
-  attr_reader :header, :entries
+  attr_reader :entries
+
+  HEADER = "date || credit || debit || balance \n"
 
   def initialize
-    @header = header
     @entries = []
-  end
-
-  def header
-    @header = "date || credit || debit || balance \n"
   end
 
   def body
@@ -16,6 +13,6 @@ class Statement
     @entries.each do |entry|
       body << "#{entry.date} || #{entry.credit} || #{entry.debit} || #{entry.balance}\n"
     end
-    puts header + body
+    puts HEADER + body
   end
 end
