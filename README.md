@@ -34,6 +34,10 @@ So that I can reduce my balance
 I want to be able to withdraw funds from my account
 
 As a client
+So that I know when a transaction happened
+I want to be able to see the transaction date
+
+As a client
 So that I can see my transaction history
 I want to be able to print my account statement
 ```
@@ -44,8 +48,8 @@ I want to be able to print my account statement
 | ------------- | ------------- |
 | Account  | Deposit |
 |  | Withdraw  |
-| Transaction | Print statement
-
+| Transaction |
+| Statement | Print Statement
 Getting Started
 ----
 This app will be built using Ruby and a strict TDD process. Tests will be run using rspec. The *simplecov* and *rubocop* gems will be used for coverage and code quality.
@@ -84,9 +88,9 @@ account.deposit(5000)
 
 account.withdraw(10000)
 
-account.statement
+account.statement.body
  ```
- * The printed result of `account.statement` should be the below
+ * The printed result of `account.statement.body` should be the below
  ```
  date || credit || debit || balance
  12/02/2019 || 10000 || 0 || 10000
