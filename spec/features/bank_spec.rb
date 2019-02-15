@@ -1,5 +1,3 @@
-require 'account'
-
 describe "Bank Statement" do
   it "prints the expected bank statement" do
     account = Account.new

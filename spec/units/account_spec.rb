@@ -1,5 +1,3 @@
-require 'account'
-
 describe Account do
 
   it "checks that an instance of account is created" do

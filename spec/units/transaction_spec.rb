@@ -1,5 +1,3 @@
-require 'transaction'
-
 describe Transaction do
 
   entry = Transaction.new(2000, 1000)
