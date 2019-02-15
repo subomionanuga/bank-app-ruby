@@ -49,7 +49,9 @@ I want to be able to print my account statement
 | Account  | Deposit |
 |  | Withdraw  |
 | Transaction |
-| Statement | Print Statement
+| Statement | Print Statement |
+
+
 Getting Started
 ----
 This app will be built using Ruby and a strict TDD process. Tests will be run using rspec. The *simplecov* and *rubocop* gems will be used for coverage and code quality.
